@@ -1,0 +1,5 @@
+package observerBuiltIn;
+
+public class WeatherData {
+
+}

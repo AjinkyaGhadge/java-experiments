@@ -1,0 +1,9 @@
+package strategyDesign;
+
+public class ModelDuck {
+
+	public ModelDuck() {
+		flyBehavior = new FlyNoWay();
+		
+	}
+}

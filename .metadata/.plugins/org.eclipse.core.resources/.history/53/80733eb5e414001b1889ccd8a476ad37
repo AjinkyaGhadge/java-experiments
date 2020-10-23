@@ -1,0 +1,16 @@
+package strategyDesign;
+
+public class DecoyDuck {
+	QuackBehavior quackBehavior;
+	int loudness = 10;
+	
+	void DecoyDuck(QuackBehavior qb) {
+		qb.quack();
+	}
+	public static void main(String[] args) {
+		Quack sound = new Quack();
+		DecoyDuck d = new DecoyDuck(new )
+
+	}
+
+}

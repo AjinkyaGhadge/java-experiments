@@ -1,0 +1,43 @@
+package learnSwing;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.GridLayout;
+
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.WindowConstants;
+
+public class GUI{
+	public GUI() {
+		JFrame gui = new JFrame();
+		gui.setTitle("My first GUI application");
+		gui.setResizable(false);
+		gui.setSize(500,500);
+		gui.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+		gui.setVisible(true);
+		
+		Container pane = gui.getContentPane();
+		pane.setBackground(new Color(0,0,0));
+		pane.setLayout(new BorderLayout());
+		
+		JButton east = new JButton("east");
+		JButton west = new JButton("west");
+		JButton center = new JButton("center");
+		JButton south = new JButton("south");
+		JButton north = new JButton("north");
+		
+		pane.add(east,BorderLayout.EAST);
+		
+		
+		
+	}
+	public static void main(String[] args) {
+		new GUI();
+
+	}
+}
+

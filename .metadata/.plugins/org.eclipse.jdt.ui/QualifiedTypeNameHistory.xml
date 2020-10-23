@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.swing.JPanel"/>
+    <fullyQualifiedTypeName name="javax.swing.BorderFactory"/>
+    <fullyQualifiedTypeName name="javax.swing.WindowConstants"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="java.awt.BorderLayout"/>
+    <fullyQualifiedTypeName name="learnSwing.ButtonEvt"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="java.awt.Container"/>
+    <fullyQualifiedTypeName name="javax.swing.JMenuBar"/>
+    <fullyQualifiedTypeName name="javax.swing.JMenu"/>
+    <fullyQualifiedTypeName name="java.awt.GridLayout"/>
+    <fullyQualifiedTypeName name="javax.swing.JMenuItem"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="java.awt.Font"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="tictactoe.TicTacToe"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="strategyDesign.MallardDuck"/>
+    <fullyQualifiedTypeName name="strategyDesign.FlyBehavior"/>
+    <fullyQualifiedTypeName name="strategyDesign.ModelDuck"/>
+    <fullyQualifiedTypeName name="strategyDesign.FlyRocketPowered"/>
+    <fullyQualifiedTypeName name="strategyDesign.QuackBehavior"/>
+    <fullyQualifiedTypeName name="strategyDesign.DecoyDuck"/>
+    <fullyQualifiedTypeName name="strategyDesign.Quack"/>
+    <fullyQualifiedTypeName name="strategyDesign.Squeak"/>
+</qualifiedTypeNameHistroy>

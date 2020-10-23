@@ -1,0 +1,23 @@
+package learnSwing;
+
+import java.awt.BorderLayout;
+import java.awt.GridLayout;
+
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class GUI{
+	public GUI() {
+		JFrame gui = new JFrame()
+		gui.setTitle("My first GUI application");
+		gui.setResizable(false);
+		
+	}
+	public static void main(String[] args) {
+		new GUI();
+
+	}
+}
+

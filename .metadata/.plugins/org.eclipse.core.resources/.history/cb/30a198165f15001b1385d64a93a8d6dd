@@ -1,0 +1,14 @@
+package observertest;
+
+public class WeatherData implements Subject{
+	private ArrayList<Observer> observers;
+	private float temprature;
+	private float humidity;
+	private float pressure;
+	
+	public WeatherData()
+	{
+		observers = new ArrayList<Observer>();
+	}
+
+}

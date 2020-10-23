@@ -1,0 +1,7 @@
+package observerBuiltIn;
+import java.util.Observable;
+
+
+public class WeatherData {
+
+}

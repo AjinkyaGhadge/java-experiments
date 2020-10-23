@@ -1,0 +1,7 @@
+package observertest;
+
+public class MinMaxConditionsDisplay implements Observer,DisplayElement{
+private float temperature;
+private float humidity;
+Subject weatherData; 
+}

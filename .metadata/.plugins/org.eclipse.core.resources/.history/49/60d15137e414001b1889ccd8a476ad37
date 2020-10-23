@@ -1,0 +1,11 @@
+package strategyDesign;
+
+public class DecoyDuck {
+	QuackBehavior quackBehavior;
+	private int loudness = 10
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

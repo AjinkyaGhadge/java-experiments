@@ -1,0 +1,6 @@
+package strategyDesign;
+
+public class Quack implements QuackBehavior{
+	
+
+}

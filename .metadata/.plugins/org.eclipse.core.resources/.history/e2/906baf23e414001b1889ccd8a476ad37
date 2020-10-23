@@ -1,0 +1,10 @@
+package strategyDesign;
+
+public class DecoyDuck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
