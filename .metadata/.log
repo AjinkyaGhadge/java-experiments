@@ -48,3 +48,141 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+!SESSION 2020-10-23 14:29:09.821 -----------------------------------------------
+eclipse.buildId=4.14.0.I20191210-0610
+java.version=11.0.8
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-10-23 20:24:55.329
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [observertest does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2525)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:984)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:979)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:542)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:590)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-10-23 20:24:55.330
+!MESSAGE observertest does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-10-23 20:24:55.330
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [observertest does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2525)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2347)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2406)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getJavadocBaseLocation(JavaDocLocations.java:203)
+	at org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getJavadocLocation(JavaDocLocations.java:222)
+	at org.eclipse.jdt.ui.JavaUI.getJavadocLocation(JavaUI.java:1039)
+	at org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getBaseURL(JavaDocLocations.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:596)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-10-23 20:24:55.331
+!MESSAGE observertest does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-10-23 20:24:56.579
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [observertest does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2525)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2347)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2406)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getJavadocBaseLocation(JavaDocLocations.java:203)
+	at org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getJavadocLocation(JavaDocLocations.java:222)
+	at org.eclipse.jdt.ui.JavaUI.getJavadocLocation(JavaUI.java:1039)
+	at org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getBaseURL(JavaDocLocations.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:596)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-10-23 20:24:56.579
+!MESSAGE observertest does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-10-23 20:24:58.936
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [observertest does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2525)
+	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:984)
+	at org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:979)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:542)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:78)
+	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:63)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:590)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-10-23 20:24:58.936
+!MESSAGE observertest does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-10-23 20:24:58.937
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [observertest does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getPerProjectInfoCheckExistence(JavaModelManager.java:2525)
+	at org.eclipse.jdt.internal.core.JavaProject.getPerProjectInfo(JavaProject.java:2347)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2406)
+	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getResolvedClasspathEntry(PackageFragmentRoot.java:624)
+	at org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getJavadocBaseLocation(JavaDocLocations.java:203)
+	at org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getJavadocLocation(JavaDocLocations.java:222)
+	at org.eclipse.jdt.ui.JavaUI.getJavadocLocation(JavaUI.java:1039)
+	at org.eclipse.jdt.internal.corext.javadoc.JavaDocLocations.getBaseURL(JavaDocLocations.java:463)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:596)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2020-10-23 20:24:58.937
+!MESSAGE observertest does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2020-10-23 21:14:54.031
+!MESSAGE Internal Error
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:112)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: Java Model Exception: Java Model Status [Build path contains duplicate entry: 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5' for project 'beatmakerMVC']
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:798)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3573)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3533)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3589)
+	at org.eclipse.jdt.internal.ui.util.ClasspathVMUtil.updateClasspath(ClasspathVMUtil.java:146)
+	at org.eclipse.jdt.internal.ui.text.correction.ReorgCorrectionsSubProcessor$ChangeToRequiredCompilerCompliance.updateJRE(ReorgCorrectionsSubProcessor.java:448)
+	at org.eclipse.jdt.internal.ui.text.correction.ReorgCorrectionsSubProcessor$ChangeToRequiredCompilerCompliance.run(ReorgCorrectionsSubProcessor.java:411)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5862)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	... 1 more
+Root exception:
+Java Model Exception: Java Model Status [Build path contains duplicate entry: 'org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5' for project 'beatmakerMVC']
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:798)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3573)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3533)
+	at org.eclipse.jdt.internal.core.JavaProject.setRawClasspath(JavaProject.java:3589)
+	at org.eclipse.jdt.internal.ui.util.ClasspathVMUtil.updateClasspath(ClasspathVMUtil.java:146)
+	at org.eclipse.jdt.internal.ui.text.correction.ReorgCorrectionsSubProcessor$ChangeToRequiredCompilerCompliance.updateJRE(ReorgCorrectionsSubProcessor.java:448)
+	at org.eclipse.jdt.internal.ui.text.correction.ReorgCorrectionsSubProcessor$ChangeToRequiredCompilerCompliance.run(ReorgCorrectionsSubProcessor.java:411)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5862)
+	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:108)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
